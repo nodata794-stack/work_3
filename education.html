@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Факультет — Навчання</title>
+    <link rel="shortcut icon" href="./image/icon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <header class="header">
+        <div class="wrapper">
+            <div class="header_wrapper">
+                <div class="wrapper_logo">
+                    <a href="./index.html" class="wrapper_logo-link">
+                        <img src="./image/logo.png" alt="Логотип факультету" width="56" height="56" class="wrapper_logo-pic">
+                        <span>Математичний факультет ЗНУ</span>
+                    </a>
+                </div>
+                <nav class="header_nav">
+                    <ul class="header_list-menu">
+                        <li class="header_item">
+                            <a href="./index.html" class="header_link">Головна</a>
+                        </li>
+                        <li class="header_item">
+                            <a href="./news.html" class="header_link">Новини</a>
+                        </li>
+                        <li class="header_item">
+                            <a href="./education.html" class="header_link active">Навчання ▾</a>
+                            <ul class="header_submenu">
+                                <li><a href="./education.html#schedule" class="header_submenu-link">Розклад занять</a></li>
+                                <li><a href="./education.html#subjects" class="header_submenu-link">Дисципліни семестру</a></li>
+                                <li><a href="./education.html#materials" class="header_submenu-link">Методичні матеріали</a></li>
+                            </ul>
+                        </li>
+                        <li class="header_item">
+                            <a href="./contacts.html" class="header_link">Контакти</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="wrapper">
+            <div class="content-box">
+                <h1 id="schedule">Розклад занять на поточний семестр</h1>
+                <p>Актуальний розклад лекційних та лабораторних занять на поточний навчальний семестр. (на момент написання розмітки, сайт МКР трохи приліг і не відповідає, а розклад на пам'ять я не памятаю, тому тут все в тестових предметах*)</p>
+
+                <div class="schedule-wrapper">
+                    <table class="schedule-table">
+                        <thead>
+                            <tr>
+                                <th>День тижня</th>
+                                <th>Пара</th>
+                                <th>Час</th>
+                                <th>Навчальна дисципліна</th>
+                                <th>Тип</th>
+                                <th>Аудиторія / Платформа</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td rowspan="2" class="day-cell">Понеділок</td>
+                                <td>1</td>
+                                <td>08:00 – 09:20</td>
+                                <td>Тестовий предмет</td>
+                                <td><span class="lesson-type type-lec">Лекція</span></td>
+                                <td>Zoom</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>09:35 – 10:55</td>
+                                <td>Тестовий предмет</td>
+                                <td><span class="lesson-type type-lab">Лабораторна</span></td>
+                                <td>Zoom</td>
+                            </tr>
+
+                            <tr>
+                                <td rowspan="2" class="day-cell">Вівторок</td>
+                                <td>2</td>
+                                <td>09:35 – 10:55</td>
+                                <td>Тестовий предмет</td>
+                                <td><span class="lesson-type type-lec">Лекція</span></td>
+                                <td>Zoom</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>11:25 – 12:45</td>
+                                <td>Тестовий предмет</td>
+                                <td><span class="lesson-type type-lab">Лабораторна</span></td>
+                                <td>Zoom</td>
+                            </tr>
+
+                            <tr>
+                                <td rowspan="2" class="day-cell">Середа</td>
+                                <td>1</td>
+                                <td>08:00 – 09:20</td>
+                                <td>Тестовий предмет</td>
+                                <td><span class="lesson-type type-lec">Лекція</span></td>
+                                <td>Zoom</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>09:35 – 10:55</td>
+                                <td>Тестовий предмет</td>
+                                <td><span class="lesson-type type-lab">Лабораторна</span></td>
+                                <td>Zoom</td>
+                            </tr>
+
+                            <tr>
+                                <td rowspan="2" class="day-cell">Четвер</td>
+                                <td>2</td>
+                                <td>09:35 – 10:55</td>
+                                <td>Тестовий предмет</td>
+                                <td><span class="lesson-type type-lec">Лекція</span></td>
+                                <td>Zoom</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>11:25 – 12:45</td>
+                                <td>Тестовий предмет</td>
+                                <td><span class="lesson-type type-lab">Лабораторна</span></td>
+                                <td>Zoom</td>
+                            </tr>
+
+                            <tr>
+                                <td rowspan="2" class="day-cell">П'ятниця</td>
+                                <td>1</td>
+                                <td>08:00 – 09:20</td>
+                                <td>Тестовий предмет</td>
+                                <td><span class="lesson-type type-lab">Практика</span></td>
+                                <td>Zoom</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>09:35 – 10:55</td>
+                                <td>Тестовий предмет</td>
+                                <td><span class="lesson-type type-lec">Лекція</span></td>
+                                <td>Zoom</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <hr>
+
+                <h2 id="subjects">Дисципліни семестру</h2>
+                <p>
+                    Програма семестру орієнтована на поглиблення знань з фронтенд- та бекенд-розробки, 
+                    проєктування реляційних баз даних і побудови ефективних алгоритмів.
+                </p>
+
+                <h2 id="materials">Методичні матеріали</h2>
+                <p>
+                    Усі конспекти лекцій, варіанти лабораторних робіт та критерії оцінювання розміщені 
+                    у системі електронного забезпечення навчання (СЕЗН ЗНУ).
+                </p>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="wrapper">
+            <p>&copy; 2026 Навчальний вебпроєкт. Усі права захищено. MADE BY IGORANER</p>
+        </div>
+    </footer>
+</body>
+</html>
